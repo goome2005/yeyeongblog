@@ -1,0 +1,89 @@
+* {
+	word-break: keep-all;
+}
+h1 {
+	background-color: #B2D4F7;
+}
+h1 a:hover {
+	color: #1B46D1;
+	text-decoration: underline;
+}
+h2 {
+	background-color: #B2DFF7;
+}
+nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding: 0;
+	font-size: 20px;
+	background-color: #f0f8ff;
+}
+li {
+	color: royalblue;
+	list-style: none;
+}
+li:hover {
+	background: #FBC2FF;
+}
+img {
+	width: 300px;
+}
+.daily-life {
+    border: 2px solid #7BD7ED;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.food-blog {
+    border: 2px solid #7BD7ED;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.music-blog {
+    border: 2px solid #7BD7ED;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.food-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding: 0;
+}
+.food-container article {
+	width: 300px;
+	margin-bottom: 20px;
+}
+.food-blog h3 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.food-container h4 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.article ul{
+	display: flex;
+	flex-direction: column;
+}
+footer {
+	color: #ADADAD;
+}
+a {
+	color: black;
+	text-decoration: none;
+	text-underline-offset: 4px;
+	text-decoration-thickness: 3px;
+}
+article li {
+	list-style: disc;
+	list-style-position: inside;
+	color: #458ADE;
+}
+.secgroup {
+	border: 3px solid #B8EEFF;
+	padding: 20px;
+}
